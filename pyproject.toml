@@ -3,6 +3,9 @@ name = "hexlet-code"
 version = "0.1.0"
 description = ""
 authors = ["sudoapt <pramuk@live.ru>"]
+packages = [
+  { include = "brain_games" },
+]git
 readme = "README.md"
 
 [tool.poetry.dependencies]
