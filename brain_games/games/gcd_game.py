@@ -8,7 +8,6 @@ MAX_NUM = 100
 def gcd_game():
     arg1 = random.randint(MIN_NUM, MAX_NUM)
     arg2 = random.randint(MIN_NUM, MAX_NUM) 
-    # TODO: greatest common divisor
     question = f"{arg1} {arg2}"
     result = str(math.gcd(arg1, arg2))
     
