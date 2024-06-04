@@ -8,5 +8,7 @@ RULE_ = 'Answer "yes" if the number is even, otherwise answer "no".'
 def main():
     run(even_game, RULE_)
 
+
 if __name__ == '__main__':
     main()
+    
