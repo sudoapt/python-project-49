@@ -7,6 +7,7 @@ MIN_STEP = 1
 MAX_NUMBER = 100
 MIN_NUMBER = 1
 
+
 def make_progression():
     rand_int = random.randint(MIN_NUMBER, MAX_NUMBER)
     rand_step = random.randint(MIN_STEP, MAX_STEP)
@@ -17,6 +18,7 @@ def make_progression():
         rand_int += rand_step
 
     return progression
+
 
 def progression_game():
     progression = make_progression()

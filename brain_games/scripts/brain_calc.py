@@ -8,5 +8,6 @@ RULE_ = 'What is the result of the expression?.'
 def main():
     run(calc_game, RULE_)
 
+
 if __name__ == '__main__':
     main()

@@ -12,6 +12,7 @@ readme = "README.md"
 python = "^3.11.2"
 prompt = "^0.4.1"
 
+
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
 brain-even = "brain_games.scripts.brain_even:main"

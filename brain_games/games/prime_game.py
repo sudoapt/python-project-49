@@ -12,6 +12,6 @@ def prime_game():
         if rand_int % i == 0:
             is_prime = False
             break
-    
+
     answer = 'yes' if is_prime else 'no'
     return rand_int, answer

@@ -8,5 +8,6 @@ RULE_ = "What number is missing in the progression?"
 def main():
     run(progression_game, RULE_)
 
+
 if __name__ == '__main__':
     main()
