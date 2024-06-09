@@ -1,8 +1,8 @@
 import random
 import math
 
-MIN_NUM = 1
-MAX_NUM = 100
+MIN_NUM = 2
+MAX_NUM = 10
 
 
 def prime_game():
