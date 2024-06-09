@@ -1,11 +1,17 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "lorem ipsum dolor sit amet, consectetur adipisicing"
 authors = ["sudoapt <pramuk@live.ru>"]
 packages = [
   { include = "brain_games" },
 ]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Topic :: Games/Entertainment"
+  ]
 readme = "README.md"
 
 [tool.poetry.dependencies]
