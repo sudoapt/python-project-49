@@ -20,7 +20,7 @@ def make_progression():
     return progression
 
 
-def progression_game():
+def run_progression():
     progression = make_progression()
     rand_index = random.randint(0, len(progression) - 1)
     answer = progression[rand_index]

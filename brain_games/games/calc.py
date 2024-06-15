@@ -4,7 +4,7 @@ MIN_NUM = 1
 MAX_NUM = 10
 
 
-def calc_game():
+def run_calc():
     arg1 = random.randint(MIN_NUM, MAX_NUM)
     arg2 = random.randint(MIN_NUM, MAX_NUM)
     operations = random.choice(['+', '-', '*'])
