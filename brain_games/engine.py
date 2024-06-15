@@ -1,13 +1,13 @@
 import prompt
 
-from brain_games.cli import welcome_user
-
 
 ROUND_LIMIT = 3
 
 
 def run(run_game, rule):
-    username = welcome_user()
+    print("Welcome to the Brain Games!")
+    username = prompt.string("May I have your name? ")
+    print(f"Hello, {username}!")
     print(rule)
 
     for _ in range(ROUND_LIMIT):

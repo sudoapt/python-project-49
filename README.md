@@ -6,7 +6,7 @@
 
 
 ## Installation proccess
-#### prerequisite: make sure to have python3.11 or above and poetry
+#### prerequisite: make sure to have python3.11 or above and poetry installed
 0. after you've cloned the repo, cd to that directory
 1. run 'make install' to install all the dependencies
     https://asciinema.org/a/HoFEwa48jeWe9URoDTzuOmj7l
@@ -18,7 +18,7 @@
     https://asciinema.org/connect/3bc2c491-c084-4cff-81fd-74b233356f6f
 5. now you can run the package name to get the experience (demo downl below)
 
-#### CLI demo by asciinema
+#### CLI demo
 https://asciinema.org/a/hOJo9MAceSqVKvwkHBiNRSDL0
 
 #### Calc game demo
