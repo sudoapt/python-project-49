@@ -6,4 +6,19 @@
 
 
 ### CLI demo by asciinema
-https://asciinema.org/a/mppLZa7nguReVheaOYRTnrHBF
+https://asciinema.org/a/hOJo9MAceSqVKvwkHBiNRSDL0
+
+### Calc game demo
+https://asciinema.org/a/H3Qs0HJtaH5NtE8rUQFRGsMI3
+
+### Even game demo
+https://asciinema.org/a/hPQV1JZDhJ2s9QkzwTOPmwBb6
+
+### GCD game demo
+https://asciinema.org/a/UtdQEJIjUjQ4dTlWJjdYh6x4u
+
+### Prime game demo
+https://asciinema.org/a/xhSJHdEaUZPx4I3btI615nr75
+
+### Progression game demo
+https://asciinema.org/a/57PGwIgxRuTqeWac8EHxHqWi4
