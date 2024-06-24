@@ -1,11 +1,12 @@
 import random
 
-RULE = 'What is the result of the expression?.'
+RULE = 'What is the result of the expression?'
 MIN_NUM = 1
 MAX_NUM = 10
 
 
-def run_calc():
+def get_calc():
+    print(RULE)
     arg1 = random.randint(MIN_NUM, MAX_NUM)
     arg2 = random.randint(MIN_NUM, MAX_NUM)
     operations = random.choice(['+', '-', '*'])
