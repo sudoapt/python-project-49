@@ -2,11 +2,9 @@
 from brain_games.games.calc import run_calc
 from brain_games.engine import run
 
-RULE = 'What is the result of the expression?.'
-
 
 def main():
-    run(run_calc, RULE)
+    run(run_calc)
 
 
 if __name__ == '__main__':

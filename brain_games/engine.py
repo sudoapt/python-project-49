@@ -1,16 +1,16 @@
 import prompt
 
 
-ROUND_LIMIT = 3
+ROUND_COUNT = 3
 
 
-def run(run_game, rule):
+def run(run_game):  
     print("Welcome to the Brain Games!")
     username = prompt.string("May I have your name? ")
     print(f"Hello, {username}!")
-    print(rule)
+    print(RULE)
 
-    for _ in range(ROUND_LIMIT):
+    for _ in range(ROUND_COUNT):
         question, answer = run_game()
         print(f'Question: {question}')
         user_answer = prompt.string("Your answer: ")

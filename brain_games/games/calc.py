@@ -1,5 +1,6 @@
 import random
 
+RULE = 'What is the result of the expression?.'
 MIN_NUM = 1
 MAX_NUM = 10
 
