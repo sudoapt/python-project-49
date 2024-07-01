@@ -21,8 +21,7 @@ def make_progression():
     return progression
 
 
-def get_progression():
-    print(RULE)
+def get_question_and_answer():
     progression = make_progression()
     rand_index = random.randint(0, len(progression) - 1)
     answer = progression[rand_index]
