@@ -4,14 +4,14 @@ import prompt
 ROUND_COUNT = 3
 
 
-def run(run_game):
+def run(game):
     print("Welcome to the Brain Games!")
     username = prompt.string("May I have your name? ")
     print(f"Hello, {username}!")
-    print(run_game)
+    print(game.RULE)
 
     for _ in range(ROUND_COUNT):
-        question, answer = run_game()
+        question, answer = game.get_question_and_answer()
         print(f'Question: {question}')
         user_answer = prompt.string("Your answer: ")
         if str(user_answer) != answer:

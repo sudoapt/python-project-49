@@ -6,8 +6,7 @@ MIN_NUM = 1
 MAX_NUM = 100
 
 
-def get_gcd():
-    print(RULE)
+def get_question_and_answer():
     arg1 = random.randint(MIN_NUM, MAX_NUM)
     arg2 = random.randint(MIN_NUM, MAX_NUM)
     question = f"{arg1} {arg2}"
