@@ -7,13 +7,16 @@ MIN_NUM = 2
 MAX_NUM = 10
 
 
-def get_question_and_answer():
-    rand_int = random.randint(MIN_NUM, MAX_NUM)
+def is_prime(n):
     is_prime = True
-    for i in range(2, math.isqrt(rand_int) + 1):
-        if rand_int % i == 0:
+    for i in range(2, math.isqrt(n) + 1):
+        if n % i == 0:
             is_prime = False
             break
+    return is_prime
 
-    answer = 'yes' if is_prime else 'no'
+def get_question_and_answer():
+    rand_int = random.randint(MIN_NUM, MAX_NUM)
+    question = is_prime(rand_int)
+    answer = 'yes' if question else 'no'
     return rand_int, answer
