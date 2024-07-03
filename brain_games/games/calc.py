@@ -2,13 +2,11 @@ import random
 from operator import add, sub, mul
 
 RULE = 'What is the result of the expression?'
-MIN_NUM = 1
-MAX_NUM = 10
 
 
 def get_question_and_answer():
-    arg1 = random.randint(MIN_NUM, MAX_NUM)
-    arg2 = random.randint(MIN_NUM, MAX_NUM)
+    arg1 = random.randint(1, 10)
+    arg2 = random.randint(1, 10)
  
     operators = ((add, "+"), (sub, "-"), (mul, "*"))
     operation = random.choice(operators)

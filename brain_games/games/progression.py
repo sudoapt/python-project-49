@@ -1,18 +1,12 @@
 import random
 
 RULE = "What number is missing in the progression?"
-MAX_LENTH = 10
-MIN_LENTH = 5
-MAX_STEP = 5
-MIN_STEP = 1
-MAX_NUMBER = 100
-MIN_NUMBER = 1
 
 
 def make_progression():
-    progression = list(range(MIN_NUMBER, MAX_NUMBER, random.randint(MIN_STEP, MAX_STEP)))
+    progression = list(range(1, 100, random.randint(1, 5)))
     rand_index = random.randint(0, len(progression) - 5)
-    return progression[rand_index:rand_index + random.randint(MIN_LENTH, MAX_LENTH)]
+    return progression[rand_index:rand_index + random.randint(5, 10)]
 
 
 def get_question_and_answer():
