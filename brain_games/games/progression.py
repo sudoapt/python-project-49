@@ -10,15 +10,9 @@ MIN_NUMBER = 1
 
 
 def make_progression():
-    rand_int = random.randint(MIN_NUMBER, MAX_NUMBER)
-    rand_step = random.randint(MIN_STEP, MAX_STEP)
-    rand_lenth = random.randint(MIN_LENTH, MAX_LENTH)
-    progression = []
-    for _ in range(rand_lenth):
-        progression.append(rand_int)
-        rand_int += rand_step
-
-    return progression
+    progression = list(range(MIN_NUMBER, MAX_NUMBER, random.randint(MIN_STEP, MAX_STEP)))
+    rand_index = random.randint(0, len(progression) - 5)
+    return progression[rand_index:rand_index + random.randint(MIN_LENTH, MAX_LENTH)]
 
 
 def get_question_and_answer():
