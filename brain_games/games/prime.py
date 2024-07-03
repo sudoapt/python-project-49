@@ -13,6 +13,7 @@ def is_prime(n):
             break
     return is_prime
 
+
 def get_question_and_answer():
     rand_int = random.randint(2, 10)
     question = is_prime(rand_int)
